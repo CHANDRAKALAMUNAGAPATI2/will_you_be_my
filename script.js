@@ -674,7 +674,7 @@ yesBtn.addEventListener("click",()=>{
 
 
             heart.style.fontSize =
-            Math.random()*35 + 20 + "px";
+            Math.random()*15 + 10 + "px";
 
 
 
