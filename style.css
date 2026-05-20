@@ -1084,15 +1084,7 @@ FINAL MOBILE FIX
     }
 
 
-    /* SMALL HEARTS */
-    .hearts span{
-
-        font-size:10px;
-    }
-
-    @media (max-width:768px){
-
-    .finalCard{
+     .finalCard{
 
         position:fixed !important;
 
@@ -1105,8 +1097,17 @@ FINAL MOBILE FIX
 
         animation:
         mobileCenterPop 0.5s ease !important;
-    }
+     }
 
+    /* SMALL HEARTS */
+    .hearts span{
+
+        font-size:5px;
+    }
+    
+
+
+   
 
     @keyframes mobileCenterPop{
 
@@ -1132,4 +1133,3 @@ FINAL MOBILE FIX
 
 }
 
-}
